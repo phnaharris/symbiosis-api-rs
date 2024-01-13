@@ -5,10 +5,10 @@
 [![codecov](https://codecov.io/gh/phnaharris/symbiosis-api-rs/graph/badge.svg?token=AWZJZFZCMH)](https://codecov.io/gh/phnaharris/symbiosis-api-rs)
 [![Build Status](https://github.com/phnaharris/symbiosis-api-rs/actions/workflows/main.yml/badge.svg)](https://github.com/phnaharris/symbiosis-api-rs/actions/workflows/main.yml)
 
-A high-level binding for Symbiosis API, written in Rust.
+A high-level binding for [`Symbiosis API`], written in Rust.
 
-Symbiosis API allows you to integrate the functionalities of the Symbiosis Protocol into your
-application, platform or protocol.
+[`Symbiosis API`] allows you to integrate the functionalities of the Symbiosis Protocol into
+your application, platform or protocol.
 
 By integrating the Symbiosis API, you can quickly and effectively enable decentralized
 cross-chain swaps and cross-chain liquidity management for your users.
@@ -66,6 +66,9 @@ async fn main() -> Result<(), anyhow::Error> {
 }
 ```
 
-For more examples, take a look at the `examples/` directory.
+For more examples, take a look at the [examples] directory.
 
-This crate design based on https://plume.benboeckel.net/~/JustAnotherBlog/designing-rust-bindings-for-rest-ap-is
+[reqwest]: https://crates.io/crates/reqwest
+[serde]: https://crates.io/crates/serde
+[`Symbiosis API`]: https://docs.symbiosis.finance/developer-tools/symbiosis-api
+[examples]: https://github.com/phnaharris/symbiosis-api-rs/tree/main/examples
